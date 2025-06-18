@@ -32,7 +32,7 @@ class _ProductLoadingPageState extends State<ProductLoadingPage> {
   final bool _enabled = true;
   
   // Property 2: Base color of the shimmer effect
-  final Color _baseColor = const Color.fromARGB(255, 128, 16, 16)!;
+  final Color _baseColor = Colors.grey[300]!;
   
   // Property 3: Animation speed (period duration)
   final Duration _period = const Duration(milliseconds: 1600);
